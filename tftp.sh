@@ -1,7 +1,7 @@
 #!/bin/bash
 
-ip="192.168.1.20"
-file="XW.v6.1.7.32555.180523.1754.bin" 
+ip=<device ip address>
+file=<name the firmware file or the directory> 
 
 echo "Ping teste"
 
@@ -42,7 +42,7 @@ done
                 		done
 						
 							if [[ $z -ne 0 ]]; then
-				       				echo "The device is ready"
+				       				echo "The device is ready!"
 			       				fi
 
 			else 
